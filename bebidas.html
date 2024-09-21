@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Bebidas</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #c0392b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilo do menu de bebidas */
+        .menu-section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #ecf0f1;
+        }
+
+        .menu-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #c0392b;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .menu-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px;
+            width: 250px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item h3 {
+            font-size: 1.5em;
+            color: #c0392b;
+            margin-bottom: 10px;
+        }
+
+        .menu-item p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .menu-item .price {
+            display: block;
+            margin-top: 15px;
+            font-size: 1.2em;
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lanchonete Sabores do Lombo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h2>Cardápio de Bebidas</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Refrigerantes</h3>
+                    <p>Opções variadas de refrigerantes tradicionais.</p>
+                    <span class="price">R$ 5,00</span>
+                </div>
+
+                <div class="menu-item">
+                    <h3>Sucos Naturais</h3>
+                    <p>Sucos frescos preparados na hora, disponíveis em diversos sabores.</p>
+                    <span class="price">R$ 7,00</span>
+                </div>
+
+                <div class="menu-item">
+                    <h3>Cervejas</h3>
+                    <p>Seleção de cervejas nacionais e importadas.</p>
+                    <span class="price">R$ 10,00</span>
+                </div>
+
+                <div class="menu-item">
+                    <h3>Drinks Clássicos</h3>
+                    <p>Caipirinha, Mojito, Margarita e outros coquetéis tradicionais.</p>
+                    <span class="price">R$ 15,00</span>
+                </div>
+
+                <div class="menu-item">
+                    <h3>Bebidas Quentes</h3>
+                    <p>Café, chá e outras opções de bebidas quentes.</p>
+                    <span class="price">R$ 5,00</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sabores do Lombo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
